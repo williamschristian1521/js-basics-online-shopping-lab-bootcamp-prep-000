@@ -43,7 +43,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   var cartTotal = total()
-  cart = cart.splice(0, cart.length)
+  cart.splice(0, cart.length)
   if (isNaN(cardNumber))
   {
     return 'Sorry, we dont have a credit card on file for you.'
