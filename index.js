@@ -42,6 +42,5 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  var cart = getCart()
-  delete cart
+  var cartTotal = total()
 }
