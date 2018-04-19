@@ -17,10 +17,13 @@ function addToCart(item) {
 function viewCart() {
   var cart = getCart()
   var message = 'In your cart, you have
-  if (cart.length === 1) return `${message} `
+  if (cart.length === 1) return `${message} ${cart[0].itemName} at ${cart.itemPrice}.`
   for (let i = 0; i < cart.length; i++)
   {
-    if (i === cart.length - 1)
+    if (i < cart.length - 1)
+    {
+      
+    }
   }
 }
 
