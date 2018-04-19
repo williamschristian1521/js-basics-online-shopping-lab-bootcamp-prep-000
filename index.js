@@ -17,6 +17,7 @@ function addToCart(item) {
 function viewCart() {
   var cart = getCart()
   var message = 'In your cart, you have'
+  if (cart.length === 0) return 'Your shopping cart is empty.'
   if (cart.length === 1) return `${message} ${cart[0].itemName} at $${cart[0].itemPrice}.`
   for (let i = 0; i < cart.length; i++)
   {
