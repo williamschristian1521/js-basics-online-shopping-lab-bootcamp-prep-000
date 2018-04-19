@@ -24,6 +24,10 @@ function viewCart() {
     {
       message += ` ${cart[i].itemName} at ${cart[i].itemPrice}`
     }
+    else
+    {
+      message += ` ${cart[i].itemName} at ${cart[i].itemPrice}.`
+    }
   }
 }
 
