@@ -15,7 +15,13 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var cart = 'In your cart, you have '
+  var cart = getCart()
+  var message = 'In your cart, you have
+  if (cart.length === 1) return `${message} `
+  for (let i = 0; i < cart.length; i++)
+  {
+    if (i === cart.length - 1)
+  }
 }
 
 function total() {
