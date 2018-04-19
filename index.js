@@ -47,4 +47,8 @@ function placeOrder(cardNumber) {
   {
     return 'Sorry, we dont have a credit card on file for you.'
   }
+  else
+  {
+    return `Your total cost is ${cartTotal}, which`
+  }
 }
