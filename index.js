@@ -46,7 +46,7 @@ function placeOrder(cardNumber) {
   cart.splice(0, cart.length)
   if (isNaN(cardNumber))
   {
-    return 'Sorry, we dont have a credit card on file for you.'
+    return 'Sorry, we don\'t have a credit card on file for you.'
   }
   else
   {
