@@ -29,6 +29,7 @@ function viewCart() {
       message += ` ${cart[i].itemName} at ${cart[i].itemPrice}.`
     }
   }
+  return message
 }
 
 function total() {
