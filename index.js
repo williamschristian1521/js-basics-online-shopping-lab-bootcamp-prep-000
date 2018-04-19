@@ -45,6 +45,6 @@ function placeOrder(cardNumber) {
   var cartTotal = total()
   if (cardNumber === NaN)
   {
-    return 
+    return 'Sorry, we dont have a credit card on file for you.'
   }
 }
